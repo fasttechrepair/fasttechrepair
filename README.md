@@ -1,6 +1,12 @@
-# Fast Tech Repair - Stage 4 Part 1
+# Fast Tech Repair — Stage 4 Part 2
 
-Premium homepage and shared visual identity upgrade for GitHub Pages.
+Premium Services Grid update for GitHub Pages.
 
-## Upload
-Upload all files and folders in this directory to the root of the GitHub repository, then commit changes.
+## Added
+- 12 service cards
+- stronger business positioning
+- premium hover effects
+- service band section
+- responsive layouts for phone, tablet and desktop
+
+Upload all files and folders to the GitHub repository root.
