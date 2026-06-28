@@ -1,3 +1,6 @@
-# Fast Tech Repair Stage 3
+# Fast Tech Repair - Stage 4 Part 1
 
-Stage 3 adds stronger visual design, responsive layout, animations, counters, reusable assets, and complete pages for GitHub Pages.
+Premium homepage and shared visual identity upgrade for GitHub Pages.
+
+## Upload
+Upload all files and folders in this directory to the root of the GitHub repository, then commit changes.
