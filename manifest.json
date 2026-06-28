@@ -3,6 +3,6 @@
   "short_name": "FTR",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#050b16",
-  "theme_color": "#00e5ff"
+  "background_color": "#030913",
+  "theme_color": "#00e7ff"
 }

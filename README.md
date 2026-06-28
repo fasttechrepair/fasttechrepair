@@ -1,3 +1,3 @@
-# Fast Tech Repair Clean Pro
+# Fast Tech Repair Stage 5 Premium
 
-Stable clean rebuild for GitHub Pages. Upload all files to the repository root.
+Stable premium rebuild for GitHub Pages. Upload all contents of this folder to the repository root.
