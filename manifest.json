@@ -1,1 +1,8 @@
-{"name":"Fast Tech Repair","short_name":"FTR","start_url":"/fasttechrepair/","display":"standalone","background_color":"#050816","theme_color":"#16d9ff"}
+{
+  "name": "Fast Tech Repair",
+  "short_name": "FTR",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#030913",
+  "theme_color": "#00e7ff"
+}
