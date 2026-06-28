@@ -1,5 +1,3 @@
-# Fast Tech Repair Stage 2
+# Fast Tech Repair Stage 3
 
-Professional multi-page static website for GitHub Pages.
-
-Upload all files and folders to the root of the GitHub repository.
+Stage 3 adds stronger visual design, responsive layout, animations, counters, reusable assets, and complete pages for GitHub Pages.
