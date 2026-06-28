@@ -1,3 +1,4 @@
-# Fast Tech Repair V3
+# Fast Tech Repair Stage 1
 
-Final V3 static website for GitHub Pages. Upload all files and folders to the repository root.
+Stage 1 professional homepage upgrade for GitHub Pages.
+Upload all files and folders to the root of the repository.
