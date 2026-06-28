@@ -1,3 +1,3 @@
-# Fast Tech Repair Stage 5 Premium
+# Fast Tech Repair Stage 6 Enterprise
 
-Stable premium rebuild for GitHub Pages. Upload all contents of this folder to the repository root.
+Upload all contents of this folder to the GitHub repository root.

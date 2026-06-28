@@ -1,8 +1,8 @@
 {
-  "name": "Fast Tech Repair",
+  "name": "Fast Tech Repair Stage 6 Enterprise",
   "short_name": "FTR",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#030913",
+  "background_color": "#030814",
   "theme_color": "#00e7ff"
 }

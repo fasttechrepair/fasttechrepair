@@ -1,4 +1,48 @@
-const navToggle=document.querySelector('[data-nav-toggle]');const links=document.querySelector('.links');if(navToggle){navToggle.addEventListener('click',()=>links.classList.toggle('open'))}
-const observer=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')})},{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
-function animateCounters(){document.querySelectorAll('[data-count]').forEach(el=>{const target=parseInt(el.dataset.count,10);let current=0;const step=Math.max(1,Math.ceil(target/90));const run=()=>{current+=step;if(current>=target){el.textContent=target+'+';return}el.textContent=current+'+';requestAnimationFrame(run)};run()})}
-let counted=false;const statBlock=document.querySelector('.stats');if(statBlock){new IntersectionObserver(e=>{if(e[0].isIntersecting&&!counted){counted=true;animateCounters()}},{threshold:.4}).observe(statBlock)}
+
+window.addEventListener('load', () => {
+  const loader = document.getElementById('loader');
+  if(loader) setTimeout(() => loader.classList.add('hide'), 450);
+});
+const menuBtn = document.getElementById('menuBtn');
+const nav = document.getElementById('nav');
+if(menuBtn && nav){ menuBtn.addEventListener('click', () => nav.classList.toggle('open')); }
+const reveals = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver(entries => {
+  entries.forEach(entry => { if(entry.isIntersecting) entry.target.classList.add('visible'); });
+}, {threshold:.12});
+reveals.forEach(el => io.observe(el));
+const counters = document.querySelectorAll('[data-count]');
+let started = false;
+function startCounters(){
+  if(started) return;
+  started = true;
+  counters.forEach(el => {
+    const target = Number(el.dataset.count);
+    let cur = 0;
+    const step = Math.max(1, Math.ceil(target / 65));
+    const timer = setInterval(() => {
+      cur += step;
+      if(cur >= target){
+        el.textContent = target + (target === 24 ? '/7' : '+');
+        clearInterval(timer);
+      } else {
+        el.textContent = cur;
+      }
+    }, 22);
+  });
+}
+const metric = document.querySelector('.metric-row');
+if(metric){
+  const co = new IntersectionObserver(entries => {
+    entries.forEach(entry => { if(entry.isIntersecting) startCounters(); });
+  }, {threshold:.25});
+  co.observe(metric);
+}
+const light = document.getElementById('cursorLight');
+if(light && window.matchMedia('(min-width:900px)').matches){
+  light.style.display='block';
+  window.addEventListener('mousemove', e => {
+    light.style.left=e.clientX+'px';
+    light.style.top=e.clientY+'px';
+  });
+}
