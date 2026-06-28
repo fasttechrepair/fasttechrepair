@@ -1,3 +1,3 @@
-# Fast Tech Repair Final Complete Website
+# Fast Tech Repair V3
 
-Static GitHub Pages website for Fast Tech Repair. Upload all files and folders to the repository root.
+Final V3 static website for GitHub Pages. Upload all files and folders to the repository root.
