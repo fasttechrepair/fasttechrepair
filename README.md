@@ -1,12 +1,7 @@
-# Fast Tech Repair — Stage 4 Part 2
+# Fast Tech Repair - Stage4 Part3 FIX
 
-Premium Services Grid update for GitHub Pages.
+This package is a full replacement build based on the last good design.
 
-## Added
-- 12 service cards
-- stronger business positioning
-- premium hover effects
-- service band section
-- responsive layouts for phone, tablet and desktop
+It fixes the broken header/layout caused by Stage4-Part2 and adds a safe Premium Services module.
 
-Upload all files and folders to the GitHub repository root.
+Upload all files and folders inside `ftr-stage4-part3-fix` to the GitHub repository, then commit to main.
