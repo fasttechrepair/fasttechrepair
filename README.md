@@ -1,4 +1,5 @@
-# Fast Tech Repair Stage 1
+# Fast Tech Repair Stage 2
 
-Stage 1 professional homepage upgrade for GitHub Pages.
-Upload all files and folders to the root of the repository.
+Professional multi-page static website for GitHub Pages.
+
+Upload all files and folders to the root of the GitHub repository.
